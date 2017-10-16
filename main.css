@@ -1,6 +1,49 @@
-h3 {
-/*    text-align: center;*/
+body {
+    background: #323232;
+    color: #EBEBEB;
+    font-family: sans-serif;
+}
+p {
+    text-align: center;
+    margin-top: 550px;
 }
 .main{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    margin: auto;
+    width: 80%;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+    text-align: center;
+}
+form > input,
+form > button {
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 240px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    font-size: 15px;
+    background: #EBEBEB;
+}
+
+@media screen and (min-width:600px){
+
+p {
+    text-align: center;
+    margin-top: 600px;
+}
+.main{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin: auto;
+    width: 50%;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
     text-align: center;
 }
