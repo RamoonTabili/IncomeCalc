@@ -17,8 +17,8 @@ p {
     border-radius: 15px;
     text-align: center;
 }
-form > input,
-form > button {
+#form > input,
+#form > button {
     text-align: center;
     margin: auto;
     display: block;
